@@ -1,0 +1,16 @@
+/*Linear Gradients CSS*/
+
+/*Safari 5.1/iOS 5.0 Webkit*/
+body{ background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0.11, rgb(164,168,171)),
+  color-stop(0.56, rgb(208,209,210)));
+}
+
+/*Firefox*/
+body {
+background-image: -moz-linear-gradient(bottom, rgb(164,168,171) 11%,
+rgb(208,209,210) 56%);
+}
